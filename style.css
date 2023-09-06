@@ -1,4 +1,5 @@
 *{
+    
     margin: 0;
     padding: 0;
 }
@@ -9,10 +10,12 @@ html{
     
 }
 body{
-    width: 1300px;
+    position: absolute;
+    width: 1000px;
     margin-top: 10px;
     box-shadow: 10px 10px 8px 10px #888888;
-    background-color: aliceblue;
+    background-color: white;
+    font-family: sans-serif;
     
     
     
@@ -21,7 +24,7 @@ body{
   background-image:linear-gradient(rgba(0, 0, 0, 0.411),rgba(0, 0, 0, 0.521)) ,url("image/IMG_background.jpg");
    background-color:aliceblue;
    background-size:cover;
-   height: 500px;
+   height: 450px;
    text-align: center;
    
 }
@@ -29,11 +32,12 @@ body{
 .profil-pic {
     margin-top: 50px;
     position:relative;
-    height: 200px;
-    border: 4px solid rgb(70, 170, 70);
+    height: 150px;
+    border: 4px solid #6e8ea0;
     border-radius: 50%;
 }
 .name{
+    margin-top: 20px;
     color: aliceblue;
     
 
@@ -41,16 +45,17 @@ body{
 
 
 .download-button{
-    background-color: rgb(70, 170, 70);
+    background-color: #6e8ea0;
     margin-top: 20px;
     padding: 10px;
     border: none;
     border-radius: 10px;
     cursor:pointer;
+    font-weight:bold ;
 
 }
 .fa {
-    margin-top: 88px;
+    margin-top: 68px;
     margin-left: 30px;
     padding: 20px;
     font-size: 30px;
@@ -75,6 +80,7 @@ main{
     margin-bottom: 100px;
 }
   .bio{
+    
     display: flex;
     justify-content: space-evenly;
     align-items: flex-start;
@@ -89,28 +95,39 @@ main{
     width: 45%;
     
   }
-
   .info{
 
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    
   }
   .info h3{
     margin-bottom: 10px;
+    margin-left: 100px;
+
   }
 .info-inner{
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding-right: 30%;
-
+    
+}
+.info-inner h4{
+    margin-left: 100px;
+    margin-right: 20px;
 
 }
 .about-me h3{
+    font-family: Helvetica;
     margin-bottom: 10px;
-}
 
+}
+.about-me p{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
 .ability{
     display: flex;
     flex-direction: column;
@@ -123,32 +140,64 @@ main{
     box-shadow: 8px 8px 5px 8px #88888863;
 
 }
+.ability-inner{
+    display: flex;
+
+}
 .ability h3{
     margin-bottom: 10px;
-}
 
-footer{
-    height: 100px;
+}
+.lang h4{
+    margin-bottom: 7px;
+
+}
+.wrapper{
+    width: 850px;
+    background-color: #ddd;
+    box-sizing:border-box;
+    margin: 2px;
+    border-radius: 5px;
+
+}
+.skills{
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: aqua;
+
+}
+.python{
+    width: 50%;
+    border: 1px solid black;
+    background-color:#accfe3 ;
+    border-radius: 5px;
     
+}
+.html{
+    width: 30%;
+    border: 1px solid black;
+    background-color:#99bcd1 ;
+    border-radius: 5px;
+
+}
+.css{
+    width: 20%;
+    border: 1px solid black;
+    background-color:#84a4b7 ;
+    border-radius: 5px;
+
+}
+.java{
+    width: 5%;
+    border: 1px solid black;
+    background-color:#6e8ea0 ;
+    border-radius: 5px;
+
+}
+.footer-inner{
+    height: 80px;
+    border-top: solid #888888 2px;
     text-align: center;
-    border-top: 2px solid black;
-    background-color: rgba(0, 0, 0, 0.87);
-    
-}
-footer p{
     padding-top: 15px;
-    color: rgba(0, 0, 0, 0);
-}
-
-
-footer:hover{
-    background-color: aliceblue;
-    transition: 500ms ease-in-out;
-    transform-origin: left;
-
-}
-
-footer p:hover{
-    color: black;
-    height: 100px;
 }
