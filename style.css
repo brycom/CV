@@ -54,6 +54,10 @@ body{
     font-weight:bold ;
 
 }
+.download-button:active{
+    background-color:#6e8ea09f;
+    transition: 300ms, ease-in-out;
+}
 .fa {
     margin-top: 68px;
     margin-left: 30px;
@@ -63,6 +67,10 @@ body{
     text-decoration: none;
     border-radius: 50%;
   }
+  .fa:active{
+    background-color:transparent;
+    transition: 300ms, ease-in-out;
+}
   .fa-linkedin {
     margin-left: -10px;
     background: #007cb5bb;
